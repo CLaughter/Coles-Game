@@ -17,7 +17,7 @@ window.onload = function() {
 
 // CSS and Images may not have yet loaded, but the DOM has loaded.
 $(document).ready(function() {
-  alert('DOM has loaded');
+  alert('Document has loaded');
  
 // Arrays****
 
@@ -137,5 +137,6 @@ $(document).ready(function() {
 			setTimeout(function() {gameReset("YOU DIDN'T WIN!")}, 200);
 		}
 	});
+
 
 }); // end script
